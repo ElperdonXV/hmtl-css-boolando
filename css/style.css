@@ -2,11 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 hmtl{
     font-size: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .clear-fix{
@@ -72,3 +72,17 @@ img{
     top: 0%;
     right: 0;
 }
+.sale-price-fix{
+    display: inline-block;
+    text-decoration-line: line-through;
+}
+
+.red-sales{
+    color: red;
+    font-weight: bold;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
