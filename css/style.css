@@ -15,6 +15,10 @@ hmtl{
     clear: both;
 }
 
+.overflow{
+    overflow: hidden;
+}
+
 .main-container{
     margin: 0 auto;
     width: 80%;
@@ -43,7 +47,7 @@ img{
 }
 
 .product{
-    width: calc(100% / 3 - 3em);
+    width: calc(33.33% - 1em);
 }
 
 .hover:hover{
@@ -51,7 +55,7 @@ img{
 }
 
 .hover{
-    z-index: 999;
+    z-index: 2;
 }
 
 .prod-one{ 
@@ -94,7 +98,7 @@ h2{
     width: 30px;
     height: 30px;
     background-color: white;
-    z-index: 999999;
+    z-index: 3;
     text-align: center;
     font-size: 1.5em;
 }
@@ -108,7 +112,7 @@ h2{
     position: absolute;
     bottom: 60px;
     left: 0;
-    z-index: 1000000000; 
+    z-index: 3; 
 }
 
 .sconto-red{
