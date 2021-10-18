@@ -29,6 +29,10 @@ hmtl{
     float: left;
 }
 
+.relative{
+    position: relative;
+}
+
 img{
     width: 100%;
 }
@@ -40,4 +44,8 @@ img{
 
 .product{
     width: calc(100% / 3 - 3em);
+}
+
+.hover:hover{
+    display: none;
 }
