@@ -49,3 +49,13 @@ img{
 .hover:hover{
     display: none;
 }
+
+.hover{
+    z-index: 999;
+}
+
+.prod-one { 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
