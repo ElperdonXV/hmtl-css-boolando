@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+hmtl{
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.clear-fix{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.main-container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.product-line-container{
+    width: 100%;
+    margin-top: 1em;
+}
+
+.float{
+    float: left;
+}
+
+img{
+    width: 100%;
+}
+
+.margin-left-right{
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+.product{
+    width: calc(100% / 3 - 3em);
+}
