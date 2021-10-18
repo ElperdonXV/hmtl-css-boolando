@@ -54,8 +54,21 @@ img{
     z-index: 999;
 }
 
-.prod-one { 
+.prod-one{ 
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.prod-two{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 20%;
+}
+
+.prod-three{
+    position: absolute;
+    top: 0%;
+    right: 0;
 }
