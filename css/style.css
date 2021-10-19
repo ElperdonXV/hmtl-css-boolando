@@ -50,7 +50,7 @@ img{
     width: calc(33.33% - 1em);
 }
 
-.hover:hover{
+.img-box:hover .hover{
     display: none;
 }
 
