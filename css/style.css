@@ -9,7 +9,7 @@ hmtl{
     font-size: 100%;
 }
 
-.clear-fix{
+.clear-fix::after{
     content: '';
     display: table;
     clear: both;
